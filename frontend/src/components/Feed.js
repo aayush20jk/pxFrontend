@@ -6,13 +6,10 @@ import Whatstrending from './Whatstreding';
 function Feed() {
   return (
     <div className='feed'>
-        {/*header*/}
-        <div className="feed_header">
-            <h2 style={{color:'rgb(94, 50, 182)'}}>Your Feed</h2>
+        {/*postbox*/}
+        <div style={{position: 'fixed', background:'white'}}>
+            <Postbox />
         </div>
-
-        {/*posts box*/}
-        <Postbox />
 
         {/*posts*/}
         <div className="trending-container">
