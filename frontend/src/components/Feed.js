@@ -1,6 +1,7 @@
 import React from 'react';
 import './Feed.css';
-import Postbox from './Postbox'
+import Postbox from './Postbox';
+import Whatstrending from './Whatstreding';
 
 function Feed() {
   return (
@@ -14,6 +15,9 @@ function Feed() {
         <Postbox />
 
         {/*posts*/}
+        <div className="trending-container">
+          <div className="trending-list"><Whatstrending/></div>
+        </div>
         
 
     </div>
