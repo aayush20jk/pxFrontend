@@ -2,8 +2,6 @@ import React from 'react';
 import './Sidebar.css';
 import { FaHome, FaRegUserCircle, FaSearch, FaDoorOpen, FaBell } from "react-icons/fa";
 
-
-
 function Sidebar() {
   return (
     <div className='sidebar' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '10%' }}>
